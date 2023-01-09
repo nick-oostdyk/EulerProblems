@@ -6,36 +6,6 @@ namespace cyxx
 {
 	public class Program
 	{
-		public static void Main()
-		{
-			// Simple Case
-			// 3, 5, 6, 9 = 23
-			print(Solution.One(10, 3, 5));
-
-			// Test Case
-			// { 0..<1000 % 3 | 5 } = 233168
-			print(Solution.One(1000, 3, 5));
-
-			// Example Cases
-
-			// print(Solution.One(0, 1)) // throws an exception - must iterate at least once
-			// print(Solution.One(10))   // throws an exception - must provide a pattern
-
-			// 4, 8 = 12
-			print(Solution.One(10, 4));
-
-			// 2, 3, 4, 6, 8, 9 = 32
-			print(Solution.One(10, 2, 3));
-
-			// 5, 6, 7, 10, 12, 14, 15, 18 = 87
-			print(Solution.One(20, 5, 6, 7));
-		}
-
-		public static void print(object arg) => Console.WriteLine(arg.ToString());
-	}
-
-	public static class Solution
-	{
 		#region Problem
 		/*
 		 *     If we list all the natural numbers below 10 that are multiples 
@@ -71,6 +41,31 @@ namespace cyxx
 					break;
 				}
 			return workingSum;
+		}
+
+		public static void Main()
+		{
+			// Simple Case
+			// 3, 5, 6, 9 = 23
+			Console.WriteLine(One(10, 3, 5));
+
+			// Test Case
+			// { 0..<1000 % 3 | 5 } = 233168
+			Console.WriteLine(One(1000, 3, 5));
+
+			// Example Cases
+
+			// Console.WriteLine(One(0, 1)) // throws an exception - must iterate at least once
+			// Console.WriteLine(One(10))   // throws an exception - must provide a pattern
+
+			// 4, 8 = 12
+			Console.WriteLine(One(10, 4));
+
+			// 2, 3, 4, 6, 8, 9 = 32
+			Console.WriteLine(One(10, 2, 3));
+
+			// 5, 6, 7, 10, 12, 14, 15, 18 = 87
+			Console.WriteLine(One(20, 5, 6, 7));
 		}
 	}
 }
