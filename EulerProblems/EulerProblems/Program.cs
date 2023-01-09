@@ -7,4 +7,9 @@
 			Console.WriteLine("Hello, World!\n");
 		}
 	}
+
+	public class Solution
+	{
+
+	}
 }
