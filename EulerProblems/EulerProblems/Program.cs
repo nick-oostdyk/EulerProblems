@@ -20,6 +20,11 @@ namespace cyxx
 		 *			min: Inclusive lower bound for checking product
 		 *			max: Inclusive upper bound for checking product
 		 *		
+		 *		Iterates through every possible non repeated combination of two numbers within
+		 *			the bounds, then checks if they are palindromic by converting the product 
+		 *			to a string, reversing it, and seeing if the string is equivalent forwards
+		 *			and backwards.
+		 *		
 		 *		returns the highest product within the range that is also a palindrome
 		 */
 		#endregion
