@@ -4,32 +4,6 @@ namespace cyxx
 {
 	public class Program
 	{
-		public static void Main()
-		{
-			// Simple case
-			print(Solution.Two(100, 1, 2));
-
-			// Test case
-			print(Solution.Two(4_000_000, 1, 2));
-
-			// classic fibonacci
-			print(Solution.Two(100, debug: true));
-
-			// Fun fibonacci patterns
-			print(Solution.Two(120, 2, 4, true));
-			print(Solution.Two(120, 7, 3, true));
-		}
-
-		#region util
-		public static void print(object arg)
-		{
-			Console.WriteLine(arg.ToString());
-		}
-		#endregion
-	}
-
-	public static class Solution
-	{
 		#region Problem
 		/*
 		 *		Each new term in the Fibonacci sequence is generated
@@ -87,6 +61,22 @@ namespace cyxx
 			if (debug)
 				Console.Write("= ");
 			return sum;
+		}
+
+		public static void Main()
+		{
+			// Simple case
+			Console.WriteLine(Two(100, 1, 2));
+
+			// Test case
+			Console.WriteLine(Two(4_000_000, 1, 2));
+
+			// classic fibonacci
+			Console.WriteLine(Two(100, debug: true));
+
+			// Fun fibonacci patterns
+			Console.WriteLine(Two(120, 2, 4, true));
+			Console.WriteLine(Two(120, 7, 3, true));
 		}
 	}
 }
