@@ -61,7 +61,7 @@ namespace cyxx
 			Console.WriteLine(Seven(10));
 
 			// test case
-			Console.Write(Seven(999_999));
+			Console.Write(Seven(10_000));
 		}
 	}
 }
