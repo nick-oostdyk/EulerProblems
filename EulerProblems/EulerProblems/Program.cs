@@ -2,22 +2,6 @@
 {
 	public class Program
 	{
-		public static void Main()
-		{
-			// Simple case
-			foreach (var num in Solution.Three(13195))
-				Console.Write(num + " ");
-			Console.WriteLine(": " + Solution.Three(13195).Max());
-
-			// Test case
-			foreach (var num in Solution.Three(600851475143))
-				Console.Write(num + " ");
-			Console.WriteLine(": " + Solution.Three(600851475143).Max());
-		}
-	}
-
-	public static class Solution
-	{
 		#region Problem
 		/*
 		 *		The prime factors of 13195 are 5, 7, 13 and 29.
@@ -48,6 +32,19 @@
 				factors.Add(n);
 
 			return factors.ToArray();
+		}
+
+		public static void Main()
+		{
+			// Simple case
+			foreach (var num in Three(13195))
+				Console.Write(num + " ");
+			Console.WriteLine(": " + Three(13195).Max());
+
+			// Test case
+			foreach (var num in Three(600851475143))
+				Console.Write(num + " ");
+			Console.WriteLine(": " + Three(600851475143).Max());
 		}
 	}
 }
