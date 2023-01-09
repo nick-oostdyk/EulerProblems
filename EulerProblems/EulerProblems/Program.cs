@@ -4,12 +4,28 @@
 	{
 		public static void Main()
 		{
-			Console.WriteLine("Hello, World!\n");
+			print("Hello, World!");
 		}
+
+		#region util
+		public static void print(object arg)
+		{
+			Console.WriteLine(arg.ToString());
+		}
+		#endregion
 	}
 
-	public class Solution
+	public static class Solution
 	{
-
+		#region Problem
+		/*
+		 *	
+		 */
+		#endregion
+		#region Solution
+		/*
+		 *	
+		 */
+		#endregion
 	}
 }
