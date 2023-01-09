@@ -16,7 +16,11 @@ namespace cyxx
 		#endregion
 		#region Solution
 		/*
-		 *	
+		 *		Function `Four` takes 2 parameters
+		 *			min: Inclusive lower bound for checking product
+		 *			max: Inclusive upper bound for checking product
+		 *		
+		 *		returns the highest product within the range that is also a palindrome
 		 */
 		#endregion
 		private static int Four(int min, int max)
@@ -49,6 +53,5 @@ namespace cyxx
 			// Test case
 			Console.WriteLine(Four(100, 999));
 		}
-
 	}
 }
