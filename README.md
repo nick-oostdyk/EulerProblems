@@ -7,8 +7,10 @@ This aims to be a project to both challenge myself with the content, as well as 
 Navigate to the different branches to see the completed solutions.  
 `Program.cs` is located in `EulerProblems/EulerProblems/EulerProblems`
 
+`ProblemsPage.pdf` can be found in the root folder, and shows the first 50 problems
+
 ## Problems solved to date: 
-###### *(2023/01/08)*
+###### *(2023/01/10)*
 1. Multiples of 3 or 5
 2. Even Fibonacci numbers
 3. Largest prime factor
@@ -16,3 +18,5 @@ Navigate to the different branches to see the completed solutions.
 5. Smallest Multiple
 6. Sum square difference
 7. 10_001st prime
+8. Largest product in a series
+9. Special Pythagorean triplet
