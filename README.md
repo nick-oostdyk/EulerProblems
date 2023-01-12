@@ -10,7 +10,7 @@ Navigate to the different branches to see the completed solutions.
 `ProblemsPage.pdf` can be found in the root folder, and shows the first 50 problems
 
 ## Problems solved to date: 
-###### *(2023/01/10)*
+###### *(2023/01/12)*
 1. Multiples of 3 or 5
 2. Even Fibonacci numbers
 3. Largest prime factor
@@ -20,3 +20,4 @@ Navigate to the different branches to see the completed solutions.
 7. 10_001st prime
 8. Largest product in a series
 9. Special Pythagorean triplet
+10. Summation of primes
