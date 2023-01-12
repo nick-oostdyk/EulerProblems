@@ -20,3 +20,4 @@ Navigate to the different branches to see the completed solutions.
 7. 10_001st prime
 8. Largest product in a series
 9. Special Pythagorean triplet
+10. Summation of primes
